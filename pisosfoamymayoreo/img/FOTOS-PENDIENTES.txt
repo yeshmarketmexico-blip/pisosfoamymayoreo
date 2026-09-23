@@ -1,0 +1,41 @@
+Sube aquí las fotos con estos nombres exactos (formato .webp):
+
+HOME
+- pisos-foamy-eva-mayoreo-mexico.webp
+- piso-foamy-para-gimnasio-mayoreo.webp
+- piso-foamy-guarderia-bebes-mayoreo.webp
+- piso-foamy-area-juegos-infantiles-mayoreo.webp
+- piso-foamy-ludoteca-soft-play-mayoreo.webp
+- piso-foamy-salon-fiestas-infantiles-mayoreo.webp
+- piso-foamy-karate-taekwondo-academia-mayoreo.webp
+
+GIMNASIO
+- piso-foamy-gimnasio-comercial-mayoreo-mexico.webp
+- piso-foamy-zona-cardio-maquinas.webp
+- piso-foamy-zona-yoga-pilates-gimnasio.webp
+- piso-foamy-zona-pesas-kettlebell-gimnasio.webp
+
+GUARDERÍA
+- piso-foamy-guarderia-mayoreo-mexico.webp
+- piso-foamy-guarderia-zona-gateo-bebes.webp
+- piso-foamy-guarderia-limpieza-desinfeccion.webp
+
+ÁREA DE JUEGOS
+- piso-foamy-area-juegos-infantiles-mayoreo.webp
+- piso-foamy-area-juegos-plaza-comercial.webp
+- piso-foamy-area-juegos-colegio-escuela.webp
+
+LUDOTECA
+- piso-foamy-ludoteca-soft-play-colores.webp
+- piso-foamy-ludoteca-zona-juego-activo.webp
+
+SALÓN DE FIESTAS
+- piso-foamy-salon-fiestas-infantiles-mayoreo.webp
+- piso-foamy-salon-fiestas-zona-inflables.webp
+
+ARTES MARCIALES
+- tatami-foamy-karate-taekwondo-mayoreo-mexico.webp
+- tatami-foamy-academia-karate-entrenamiento.webp
+- tatami-foamy-bicolor-rojo-azul-taekwondo.webp
+
+Convierte tus fotos a .webp en: https://squoosh.app
