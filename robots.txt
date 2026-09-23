@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://pisosfoamymayoreo.com.mx/sitemap.xml
