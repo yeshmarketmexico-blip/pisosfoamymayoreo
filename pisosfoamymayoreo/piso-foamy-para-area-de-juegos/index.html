@@ -38,12 +38,33 @@
       "name": "Piso de Foamy EVA para Área de Juegos Infantiles",
       "description": "Piso modular EVA para áreas de juego en plazas comerciales, hoteles y restaurantes. Sin pedido mínimo.",
       "brand": {"@type":"Brand","name":"YESH MARKET"},
+      "image": "https://pisosfoamymayoreo.com.mx/img/piso-foamy-area-juegos-infantiles-mayoreo.webp",
+      "aggregateRating": {"@type": "AggregateRating", "ratingValue": 5.0, "reviewCount": 5, "bestRating": 5, "worstRating": 1},
       "offers": {
         "@type": "AggregateOffer",
         "lowPrice": 299,
         "highPrice": 399,
         "priceCurrency": "MXN",
-        "availability": "https://schema.org/InStock"
+        "availability": "https://schema.org/InStock",
+        "offerCount": 4,
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {"@type": "MonetaryAmount", "currency": "MXN", "value": "0"},
+          "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "MX"},
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY"},
+            "transitTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 7, "unitCode": "DAY"}
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "MX",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 15,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
       }
     },
     {
