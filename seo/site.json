@@ -1,0 +1,42 @@
+{
+  "name": "Pisos Foamy Mayoreo",
+  "domain": "pisosfoamymayoreo.com.mx",
+  "canonical": "https://pisosfoamymayoreo.com.mx/",
+  "gsc_property": "sc-domain:pisosfoamymayoreo.com.mx",
+  "hosting": "cloudflare-pages",
+  "deploy_dir": "pisosfoamymayoreo/",
+  "tracking": {
+    "gtm": "GTM-MPWK9GWJ",
+    "ga4_measurement_id": "G-NZQMQB311E",
+    "ga4_property_id": "562300219",
+    "ga4_stream_id": "16266389259",
+    "clarity": "z82avcq204"
+  },
+  "market": {
+    "country": "Mexico",
+    "language": "Spanish"
+  },
+  "business": "YESH MARKET (CDMX)",
+  "product": "Pisos de foamy EVA tipo rompecabezas al mayoreo (4 formatos desde $299 MXN, sin pedido mínimo)",
+  "audience": [
+    "gimnasios",
+    "guarderías",
+    "ludotecas",
+    "salones de fiestas",
+    "áreas de juegos",
+    "academias de artes marciales",
+    "distribuidores"
+  ],
+  "primary_keywords": [
+    "pisos de foamy",
+    "piso de foamy mayoreo",
+    "piso foamy para gimnasio",
+    "piso foamy para guardería",
+    "tatami foamy artes marciales",
+    "piso de fomi",
+    "piso eva rompecabezas",
+    "piso foamy precio"
+  ],
+  "conversion": "contacto por WhatsApp; precios publicados por paquete",
+  "pages": "index.html más 6 landings por uso en subcarpetas (gimnasio, guardería, área de juegos, ludoteca, salón de fiestas, artes marciales); todo dentro de la carpeta pisosfoamymayoreo/ (directorio que despliega Cloudflare)"
+}
