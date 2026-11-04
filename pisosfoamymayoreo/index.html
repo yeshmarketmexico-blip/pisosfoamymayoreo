@@ -6,8 +6,8 @@
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MPWK9GWJ');</script>
 <!-- End Google Tag Manager -->
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Pisos de Foamy al Mayoreo en México | Sin Mínimo — YESH</title>
-<meta name="description" content="Proveedor directo de pisos de foamy (fomi/foami) EVA al mayoreo. 4 formatos desde $299. Sin pedido mínimo. Envío a toda la República. Factura CFDI.">
+<title>Pisos de Foamy al Mayoreo | 60x60 y 32x32 desde $299</title>
+<meta name="description" content="Piso foamy (foami) EVA tipo rompecabezas al mayoreo: piezas 60x60 y 32x32 de 8 y 10 mm desde $299 el paquete + IVA. Factura CFDI y envío a todo México.">
 <link rel="canonical" href="https://pisosfoamymayoreo.com.mx/">
 <link rel="describedby" href="/llms.txt">
 <!-- Favicon -->
@@ -15,13 +15,13 @@
 <!-- Open Graph / Social -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://pisosfoamymayoreo.com.mx/">
-<meta property="og:title" content="Pisos de Foamy al Mayoreo en México | Sin Mínimo — YESH">
-<meta property="og:description" content="Proveedor directo de pisos de foamy EVA al mayoreo. 4 formatos desde $299. Sin pedido mínimo. Envío a toda la República. Factura CFDI.">
+<meta property="og:title" content="Pisos de Foamy al Mayoreo | 60x60 y 32x32 desde $299">
+<meta property="og:description" content="Piso foamy (foami) EVA tipo rompecabezas al mayoreo: piezas 60x60 y 32x32 de 8 y 10 mm desde $299 el paquete + IVA. Factura CFDI y envío a todo México.">
 <meta property="og:image" content="https://pisosfoamymayoreo.com.mx/img/pisos-foamy-eva-mayoreo-mexico.webp">
 <meta property="og:locale" content="es_MX">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Pisos de Foamy al Mayoreo en México | Sin Mínimo — YESH">
-<meta name="twitter:description" content="Proveedor directo de pisos de foamy EVA al mayoreo. 4 formatos desde $299. Sin pedido mínimo.">
+<meta name="twitter:title" content="Pisos de Foamy al Mayoreo | 60x60 y 32x32 desde $299">
+<meta name="twitter:description" content="Piso foamy (foami) EVA tipo rompecabezas al mayoreo: piezas 60x60 y 32x32 de 8 y 10 mm desde $299 el paquete + IVA. Factura CFDI y envío a todo México.">
 <meta name="twitter:image" content="https://pisosfoamymayoreo.com.mx/img/pisos-foamy-eva-mayoreo-mexico.webp">
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,8 +36,8 @@
   --orange:  #E8650A;
   --orange2: #C95508;
   --gold:    #F5A623;
-  --wa:      #25D366;
-  --wa2:     #1DAA54;
+  --wa:      #0F7A3F;
+  --wa2:     #0B5E30;
   --gray0:   #F4F6F9;
   --gray1:   #EBEEf3;
   --gray2:   #D0D7E2;
@@ -156,6 +156,15 @@ h1 em { color: var(--orange); font-style: normal; }
   line-height: 1;
 }
 .hero-stat-n span { color: var(--orange); }
+.hero-stat-n em { font-style: normal; color: var(--orange); }
+.hero-chips { display: none; flex-wrap: wrap; gap: 8px; }
+.hero-chips span {
+  font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.18);
+  padding: 5px 10px; border-radius: 20px;
+}
+.hero-chips strong { color: var(--gold); font-weight: 700; }
+.hero-micro { font-size: 13px; color: rgba(255,255,255,0.7); margin-top: 12px; }
 .hero-stat-l { font-size: 12px; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: .08em; margin-top: 2px; }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
 .btn-wa-lg {
@@ -164,7 +173,7 @@ h1 em { color: var(--orange); font-style: normal; }
   font-weight: 700; font-size: 16px;
   padding: 15px 28px; border-radius: 10px;
   transition: background .12s, transform .1s;
-  box-shadow: 0 4px 16px rgba(37,211,102,0.35);
+  box-shadow: 0 4px 16px rgba(15,122,63,0.35);
 }
 .btn-wa-lg:hover { background: var(--wa2); transform: translateY(-1px); }
 .btn-ghost {
@@ -256,7 +265,7 @@ h1 em { color: var(--orange); font-style: normal; }
   padding: 12px; background: var(--gray0);
   border-radius: 8px; margin-bottom: 16px;
 }
-.precio-cov { font-size: 12.5px; color: var(--gray3); font-weight: 500; margin-bottom: 6px; }
+.precio-cov { font-size: 12.5px; color: var(--text2); font-weight: 500; margin-bottom: 6px; }
 .precio-num {
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 42px; font-weight: 800;
@@ -264,7 +273,9 @@ h1 em { color: var(--orange); font-style: normal; }
   line-height: 1;
 }
 .precio-num sup { font-size: 22px; vertical-align: super; line-height: 0; font-weight: 700; }
-.precio-unit { font-size: 13px; color: var(--gray3); margin-top: 2px; }
+.precio-unit { font-size: 13px; color: var(--text2); margin-top: 2px; }
+.precio-m2 { font-size: 12.5px; color: var(--text2); font-weight: 600; margin-top: 6px; }
+.precio-tipo { display: block; font-family: 'IBM Plex Sans', sans-serif; font-size: 13px; font-weight: 600; color: var(--text2); letter-spacing: 0; margin-top: 6px; }
 .precio-foot {
   padding: 16px 20px;
   border-top: 1px solid var(--border);
@@ -285,9 +296,18 @@ h1 em { color: var(--orange); font-style: normal; }
 .precio-card.popular:hover .precio-cta { background: var(--orange2); }
 .precios-nota {
   margin-top: 28px;
-  font-size: 13px; color: var(--gray3);
+  font-size: 13px; color: var(--text2);
   text-align: center;
 }
+
+/* ── ANTES DE COTIZAR ── */
+.antes { margin-top: 36px; background: var(--white); border: 1px solid var(--border); border-radius: 14px; padding: 24px; }
+.antes h3 { font-family: 'Barlow Condensed', sans-serif; font-size: 24px; font-weight: 800; color: var(--navy); margin-bottom: 14px; }
+.antes ul { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 14px 28px; }
+.antes li { display: flex; gap: 12px; font-size: 14.5px; color: var(--text2); line-height: 1.55; }
+.antes li > span { font-size: 20px; line-height: 1.3; flex-shrink: 0; }
+.antes strong { color: var(--text); }
+@media (max-width: 760px) { .antes ul { grid-template-columns: 1fr; } }
 
 /* ── CONFIANZA ── */
 .confianza { background: var(--navy); padding: 56px 0; }
@@ -428,7 +448,7 @@ h1 em { color: var(--orange); font-style: normal; }
   width: 100%; padding: 11px 14px;
   border: 1.5px solid var(--border);
   border-radius: 8px; background: var(--gray0);
-  color: var(--text); font-family: inherit; font-size: 15px;
+  color: var(--text); font-family: inherit; font-size: 16px;
   appearance: none; transition: border-color .12s;
 }
 .fg input:focus, .fg select:focus { outline: none; border-color: var(--navy); }
@@ -588,6 +608,23 @@ footer {
   .calc-layout { grid-template-columns: 1fr; }
   .fg-row { grid-template-columns: 1fr; }
   section { padding-inline: 0; }
+  /* Menú: que el botón de WhatsApp no se recorte */
+  .logo { font-size: 22px; }
+  .nav-inner { gap: 12px; }
+  .nav-wa { padding: 10px 14px; }
+  .nav-wa .lbl-largo { display: none; }
+  /* Hero móvil: precio y WhatsApp en la primera pantalla */
+  .hero { padding: 28px 0 40px; }
+  .hero-main { display: flex; flex-direction: column; }
+  .hero-eyebrow { order: 1; margin-bottom: 12px; }
+  .hero-main h1 { order: 2; margin-bottom: 14px; }
+  .hero-chips { order: 3; display: flex; margin-bottom: 18px; }
+  .hero-actions { order: 4; }
+  .hero-micro { order: 5; }
+  .hero-desc { order: 6; font-size: 16px; margin: 20px 0 0; }
+  .hero-stats { display: none; }
+  .trust-bar { order: 7; margin-top: 24px; }
+  .btn-wa-lg { width: 100%; justify-content: center; }
 }
 </style>
 
@@ -601,7 +638,7 @@ footer {
       "@id": "https://pisosfoamymayoreo.com.mx/#organization",
       "name": "YESH MARKET",
       "url": "https://pisosfoamymayoreo.com.mx/",
-      "description": "Proveedor directo de pisos de foamy EVA al mayoreo en México. Sin pedido mínimo. Para gimnasios, guarderías, ludotecas, salones de fiestas y academias de artes marciales.",
+      "description": "Proveedor directo de pisos de foamy EVA al mayoreo en México. Pedido mínimo 30 paquetes. Para gimnasios, guarderías, ludotecas, salones de fiestas y academias de artes marciales.",
       "areaServed": { "@type": "Country", "name": "México" },
       "contactPoint": {
         "@type": "ContactPoint",
@@ -611,6 +648,34 @@ footer {
         "availableLanguage": "Spanish",
         "areaServed": "MX"
       }
+    },
+    {
+      "@type": "Store",
+      "@id": "https://pisosfoamymayoreo.com.mx/#bodega",
+      "name": "Pisos Foamy Mayoreo · YESH MARKET",
+      "url": "https://pisosfoamymayoreo.com.mx/",
+      "image": "https://pisosfoamymayoreo.com.mx/img/pisos-foamy-eva-mayoreo-mexico.webp",
+      "telephone": "+52-55-2589-7917",
+      "email": "ventas@pisosfoamymayoreo.com.mx",
+      "parentOrganization": { "@id": "https://pisosfoamymayoreo.com.mx/#organization" },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Cuajimalpa de Morelos",
+        "addressRegion": "CDMX",
+        "addressCountry": "MX"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "paymentAccepted": "Tarjeta, transferencia bancaria",
+      "currenciesAccepted": "MXN",
+      "priceRange": "$299–$399 MXN por paquete + IVA",
+      "areaServed": { "@type": "Country", "name": "México" }
     },
     {
       "@type": "ItemList",
@@ -623,35 +688,18 @@ footer {
           "item": {
             "@type": "Product",
             "name": "Piso de Foamy EVA 32×32 cm — 8 mm",
-            "description": "Paquete de 16 piezas. Cobertura 1.6384 m²/paquete. Uso ligero, áreas infantiles.",
+            "description": "Paquete de 16 piezas de 32 × 32 cm (tipo 30×30). Cobertura 1.6384 m²/paquete (≈ $182 por m²). Uso ligero, áreas infantiles. Pedido mínimo 30 paquetes.",
             "material": "EVA", "size": "32×32 cm",
             "image": "https://pisosfoamymayoreo.com.mx/img/pisos-foamy-eva-mayoreo-mexico.webp",
-            "aggregateRating": {"@type": "AggregateRating", "ratingValue": 5.0, "reviewCount": 5, "bestRating": 5, "worstRating": 1},
             "offers": {
-              "@type": "AggregateOffer",
-              "lowPrice": 299,
-              "highPrice": 399,
+              "@type": "Offer",
+              "price": 299,
               "priceCurrency": "MXN",
+              "priceSpecification": {"@type": "UnitPriceSpecification", "price": 299, "priceCurrency": "MXN", "valueAddedTaxIncluded": false, "unitText": "paquete"},
+              "eligibleQuantity": {"@type": "QuantitativeValue", "minValue": 30, "unitText": "paquetes"},
               "availability": "https://schema.org/InStock",
-              "offerCount": 4,
-              "shippingDetails": {
-                "@type": "OfferShippingDetails",
-                "shippingRate": {"@type": "MonetaryAmount", "currency": "MXN", "value": "0"},
-                "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "MX"},
-                "deliveryTime": {
-                  "@type": "ShippingDeliveryTime",
-                  "handlingTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY"},
-                  "transitTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 7, "unitCode": "DAY"}
-                }
-              },
-              "hasMerchantReturnPolicy": {
-                "@type": "MerchantReturnPolicy",
-                "applicableCountry": "MX",
-                "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-                "merchantReturnDays": 15,
-                "returnMethod": "https://schema.org/ReturnByMail",
-                "returnFees": "https://schema.org/FreeReturn"
-              }
+              "url": "https://pisosfoamymayoreo.com.mx/#precios",
+              "seller": {"@id": "https://pisosfoamymayoreo.com.mx/#organization"}
             },
             "brand": { "@type": "Brand", "name": "YESH MARKET" }
           }
@@ -661,35 +709,18 @@ footer {
           "item": {
             "@type": "Product",
             "name": "Piso de Foamy EVA 32×32 cm — 10 mm",
-            "description": "Paquete de 16 piezas. Cobertura 1.6384 m²/paquete. Mayor amortiguación, guarderías.",
+            "description": "Paquete de 16 piezas de 32 × 32 cm (tipo 30×30). Cobertura 1.6384 m²/paquete (≈ $244 por m²). Mayor amortiguación, guarderías. Pedido mínimo 30 paquetes.",
             "material": "EVA", "size": "32×32 cm",
             "image": "https://pisosfoamymayoreo.com.mx/img/pisos-foamy-eva-mayoreo-mexico.webp",
-            "aggregateRating": {"@type": "AggregateRating", "ratingValue": 5.0, "reviewCount": 5, "bestRating": 5, "worstRating": 1},
             "offers": {
-              "@type": "AggregateOffer",
-              "lowPrice": 299,
-              "highPrice": 399,
+              "@type": "Offer",
+              "price": 399,
               "priceCurrency": "MXN",
+              "priceSpecification": {"@type": "UnitPriceSpecification", "price": 399, "priceCurrency": "MXN", "valueAddedTaxIncluded": false, "unitText": "paquete"},
+              "eligibleQuantity": {"@type": "QuantitativeValue", "minValue": 30, "unitText": "paquetes"},
               "availability": "https://schema.org/InStock",
-              "offerCount": 4,
-              "shippingDetails": {
-                "@type": "OfferShippingDetails",
-                "shippingRate": {"@type": "MonetaryAmount", "currency": "MXN", "value": "0"},
-                "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "MX"},
-                "deliveryTime": {
-                  "@type": "ShippingDeliveryTime",
-                  "handlingTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY"},
-                  "transitTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 7, "unitCode": "DAY"}
-                }
-              },
-              "hasMerchantReturnPolicy": {
-                "@type": "MerchantReturnPolicy",
-                "applicableCountry": "MX",
-                "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-                "merchantReturnDays": 15,
-                "returnMethod": "https://schema.org/ReturnByMail",
-                "returnFees": "https://schema.org/FreeReturn"
-              }
+              "url": "https://pisosfoamymayoreo.com.mx/#precios",
+              "seller": {"@id": "https://pisosfoamymayoreo.com.mx/#organization"}
             },
             "brand": { "@type": "Brand", "name": "YESH MARKET" }
           }
@@ -698,36 +729,19 @@ footer {
           "@type": "ListItem", "position": 3,
           "item": {
             "@type": "Product",
-            "name": "Piso de Foamy EVA 62×62 cm — 10 mm",
-            "description": "Paquete de 4 piezas. Cobertura 1.5376 m²/paquete. Gimnasios, superficies grandes.",
+            "name": "Piso de Foamy EVA 62×62 cm (tipo 60×60) — 10 mm",
+            "description": "Paquete de 4 piezas de 62 × 62 cm, el formato que en el mercado se conoce como 60×60. Cobertura 1.5376 m²/paquete (≈ $259 por m²). Gimnasios, superficies grandes y tatami para artes marciales de contacto. Pedido mínimo 30 paquetes.",
             "material": "EVA", "size": "62×62 cm",
             "image": "https://pisosfoamymayoreo.com.mx/img/pisos-foamy-eva-mayoreo-mexico.webp",
-            "aggregateRating": {"@type": "AggregateRating", "ratingValue": 5.0, "reviewCount": 5, "bestRating": 5, "worstRating": 1},
             "offers": {
-              "@type": "AggregateOffer",
-              "lowPrice": 299,
-              "highPrice": 399,
+              "@type": "Offer",
+              "price": 399,
               "priceCurrency": "MXN",
+              "priceSpecification": {"@type": "UnitPriceSpecification", "price": 399, "priceCurrency": "MXN", "valueAddedTaxIncluded": false, "unitText": "paquete"},
+              "eligibleQuantity": {"@type": "QuantitativeValue", "minValue": 30, "unitText": "paquetes"},
               "availability": "https://schema.org/InStock",
-              "offerCount": 4,
-              "shippingDetails": {
-                "@type": "OfferShippingDetails",
-                "shippingRate": {"@type": "MonetaryAmount", "currency": "MXN", "value": "0"},
-                "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "MX"},
-                "deliveryTime": {
-                  "@type": "ShippingDeliveryTime",
-                  "handlingTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY"},
-                  "transitTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 7, "unitCode": "DAY"}
-                }
-              },
-              "hasMerchantReturnPolicy": {
-                "@type": "MerchantReturnPolicy",
-                "applicableCountry": "MX",
-                "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-                "merchantReturnDays": 15,
-                "returnMethod": "https://schema.org/ReturnByMail",
-                "returnFees": "https://schema.org/FreeReturn"
-              }
+              "url": "https://pisosfoamymayoreo.com.mx/#precios",
+              "seller": {"@id": "https://pisosfoamymayoreo.com.mx/#organization"}
             },
             "brand": { "@type": "Brand", "name": "YESH MARKET" }
           }
@@ -736,36 +750,19 @@ footer {
           "@type": "ListItem", "position": 4,
           "item": {
             "@type": "Product",
-            "name": "Piso de Foamy EVA 62×62 cm — 8 mm",
-            "description": "Paquete de 4 piezas. Cobertura 1.5376 m²/paquete. Academias de artes marciales.",
+            "name": "Piso de Foamy EVA 62×62 cm (tipo 60×60) — 8 mm",
+            "description": "Paquete de 4 piezas de 62 × 62 cm, el formato que en el mercado se conoce como 60×60. Cobertura 1.5376 m²/paquete (≈ $194 por m²). Cobertura amplia y económica; en academias, para calentamiento y stretching. Disponible en bicolor. Pedido mínimo 30 paquetes.",
             "material": "EVA", "size": "62×62 cm",
             "image": "https://pisosfoamymayoreo.com.mx/img/pisos-foamy-eva-mayoreo-mexico.webp",
-            "aggregateRating": {"@type": "AggregateRating", "ratingValue": 5.0, "reviewCount": 5, "bestRating": 5, "worstRating": 1},
             "offers": {
-              "@type": "AggregateOffer",
-              "lowPrice": 299,
-              "highPrice": 399,
+              "@type": "Offer",
+              "price": 299,
               "priceCurrency": "MXN",
+              "priceSpecification": {"@type": "UnitPriceSpecification", "price": 299, "priceCurrency": "MXN", "valueAddedTaxIncluded": false, "unitText": "paquete"},
+              "eligibleQuantity": {"@type": "QuantitativeValue", "minValue": 30, "unitText": "paquetes"},
               "availability": "https://schema.org/InStock",
-              "offerCount": 4,
-              "shippingDetails": {
-                "@type": "OfferShippingDetails",
-                "shippingRate": {"@type": "MonetaryAmount", "currency": "MXN", "value": "0"},
-                "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "MX"},
-                "deliveryTime": {
-                  "@type": "ShippingDeliveryTime",
-                  "handlingTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY"},
-                  "transitTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 7, "unitCode": "DAY"}
-                }
-              },
-              "hasMerchantReturnPolicy": {
-                "@type": "MerchantReturnPolicy",
-                "applicableCountry": "MX",
-                "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-                "merchantReturnDays": 15,
-                "returnMethod": "https://schema.org/ReturnByMail",
-                "returnFees": "https://schema.org/FreeReturn"
-              }
+              "url": "https://pisosfoamymayoreo.com.mx/#precios",
+              "seller": {"@id": "https://pisosfoamymayoreo.com.mx/#organization"}
             },
             "brand": { "@type": "Brand", "name": "YESH MARKET" }
           }
@@ -776,11 +773,17 @@ footer {
       "@type": "FAQPage",
       "@id": "https://pisosfoamymayoreo.com.mx/#faq",
       "mainEntity": [
-        { "@type": "Question", "name": "¿Cuál es el pedido mínimo?", "acceptedAnswer": { "@type": "Answer", "text": "No tenemos pedido mínimo. Puedes comprar desde un paquete para probar el material. El precio por paquete es el mismo sin importar la cantidad." }},
-        { "@type": "Question", "name": "¿El foamy y el fomi son lo mismo?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Foamy, fomi, foami y fomy son distintas formas de escribir el mismo material: espuma EVA (Etileno Vinil Acetato). Es el mismo producto de celda cerrada, flexible y antiderrapante." }},
-        { "@type": "Question", "name": "¿Emiten factura CFDI?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Emitimos factura CFDI para personas físicas y morales con todos los usos fiscales vigentes. Solo indícanos al confirmar tu pedido." }},
-        { "@type": "Question", "name": "¿Hacen envíos a toda la República Mexicana?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Enviamos pisos de foamy al mayoreo a todo México: CDMX, Guadalajara, Monterrey, Puebla, Querétaro y prácticamente cualquier destino. El costo de flete se cotiza según volumen y código postal." }},
-        { "@type": "Question", "name": "¿Envían al extranjero?", "acceptedAnswer": { "@type": "Answer", "text": "Por el momento solo enviamos dentro de la República Mexicana. Para proyectos en el extranjero, el cliente puede coordinar su propia paquetería desde nuestro almacén en CDMX." }}
+        { "@type": "Question", "name": "¿Cuál es el pedido mínimo?", "acceptedAnswer": { "@type": "Answer", "text": "El pedido mínimo es de 30 paquetes (≈ 49 m² en 32×32 cm o ≈ 46 m² en 62×62 cm). Puedes mezclar formatos y colores dentro de esos 30 paquetes —por ejemplo, algunos paquetes de 32×32 y otros de 62×62— en un mismo pedido." }},
+        { "@type": "Question", "name": "¿Cuánto cuesta el piso de foamy al mayoreo?", "acceptedAnswer": { "@type": "Answer", "text": "Los precios van de $299 a $399 MXN + IVA por paquete según el formato, es decir, entre $182 y $259 por m². Para proyectos de más de 100 paquetes ofrecemos precio especial por volumen. Usa la calculadora o escríbenos para una cotización exacta." }},
+        { "@type": "Question", "name": "¿Foamy, foami, fomi y goma EVA son lo mismo?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Foamy, foami, fomi y fomy son formas de escribir el mismo material en México; en Sudamérica le dicen goma EVA. También se les conoce como losetas o cuadros de foamy. Es espuma EVA de celda cerrada, flexible y antiderrapante." }},
+        { "@type": "Question", "name": "¿Hacen envíos a toda la República Mexicana?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Enviamos a CDMX, Guadalajara, Monterrey, Puebla, Querétaro y a prácticamente cualquier destino. El costo de flete se cotiza según el volumen del pedido y tu código postal. Escríbenos con esos datos y te lo calculamos." }},
+        { "@type": "Question", "name": "¿Emiten factura CFDI?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Emitimos factura CFDI para personas físicas y morales con todos los usos fiscales vigentes. Solo indícanos al confirmar tu pedido. No tiene costo adicional." }},
+        { "@type": "Question", "name": "¿Cómo se instala el piso de foamy EVA?", "acceptedAnswer": { "@type": "Answer", "text": "No requiere adhesivo ni herramientas. Las piezas encajan a presión tipo rompecabezas. Basta con limpiar y nivelar la superficie base, colocar las piezas en el patrón deseado y unirlas. Cada paquete incluye orillas terminadoras para los bordes. La instalación de 30 m² con dos personas toma aproximadamente 2 horas." }},
+        { "@type": "Question", "name": "¿Qué grosor recomiendan para gimnasio?", "acceptedAnswer": { "@type": "Answer", "text": "Para zonas de cardio, funcional y yoga recomendamos el 62×62 cm a 10 mm. Para zonas de pesas libres donde cae el peso al suelo, el mismo formato funciona bien. Para academias de karate y taekwondo recomendamos el 62×62 cm a 10 mm; el de 8 mm basta para calentamiento y stretching." }},
+        { "@type": "Question", "name": "¿El piso de foamy EVA es resistente al agua?", "acceptedAnswer": { "@type": "Answer", "text": "El EVA de celda cerrada no absorbe agua ni humedad. Es fácil de limpiar con trapo húmedo o desinfectante. Funciona perfectamente en interiores con humedad frecuente como guarderías, vestuarios y áreas de juego. No está diseñado para exteriores permanentes ni para estar sumergido." }},
+        { "@type": "Question", "name": "¿Qué colores manejan?", "acceptedAnswer": { "@type": "Answer", "text": "Manejamos 21 colores, incluidos tonos pastel, además de los sólidos clásicos como azul, rojo, verde, amarillo, gris y negro. También hay bicolor para academias de artes marciales. La existencia varía por formato y temporada: pide la carta de colores por WhatsApp y te decimos qué hay en existencia." }},
+        { "@type": "Question", "name": "¿Puedo mezclar colores en un mismo pedido?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. El pedido mínimo es de 30 paquetes en total y puedes repartirlos entre varios colores. Para garantizar uniformidad de tono en cada color, recomendamos pedir el mismo lote de fabricación. Consulta existencia por WhatsApp antes de confirmar." }},
+        { "@type": "Question", "name": "¿Cuánto tiempo tarda la entrega?", "acceptedAnswer": { "@type": "Answer", "text": "El tiempo de entrega depende del volumen y el destino. En general, pedidos menores a 100 paquetes a destinos principales (CDMX, Guadalajara, Monterrey) se entregan en 3 a 7 días hábiles una vez confirmado el pedido. Si el color que eliges no está en existencia, se fabrica sobre pedido en 7 a 12 días hábiles. Te notificamos la fecha estimada al confirmar." }}
       ]
     }
   ]
@@ -795,10 +798,10 @@ footer {
 <!-- TOPBAR -->
 <div class="topbar">
   <div class="wrap">
-    <span>📦 <strong>Sin pedido mínimo</strong> · Envío a toda la República · Factura CFDI</span>
+    <span>📦 <strong>Pedido mínimo 30 paquetes</strong> · Envío a toda la República · Factura CFDI</span>
     <div class="topbar-right">
       <span>ventas@pisosfoamymayoreo.com.mx</span>
-      <span class="topbar-phone">📞 55 2589 7917</span>
+      <a href="tel:+525525897917" class="topbar-phone">📞 55 2589 7917</a>
     </div>
   </div>
 </div>
@@ -815,9 +818,9 @@ footer {
       <li><a href="/piso-foamy-para-salon-de-fiestas/">Salón de Fiestas</a></li>
       <li><a href="/piso-foamy-para-artes-marciales/">Artes Marciales</a></li>
     </ul>
-    <a href="https://wa.me/525525897917?text=Hola%2C%20quiero%20cotizar%20pisos%20de%20foamy%20EVA%20al%20mayoreo" class="nav-wa">
+    <a href="https://wa.me/525525897917?text=Hola%2C%20me%20interesa%20comprar%20piso%20foamy" class="nav-wa">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.118 1.531 5.842L.057 24l6.281-1.646C7.94 23.423 9.931 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.89 0-3.653-.49-5.18-1.351l-.371-.22-3.83 1.003 1.024-3.737-.243-.386C2.543 15.806 2 13.974 2 12 2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
-      Cotizar por WhatsApp
+      <span class="lbl-largo">Cotizar por </span>WhatsApp
     </a>
   </div>
 </nav>
@@ -826,18 +829,24 @@ footer {
 <section class="hero">
   <div class="wrap">
     <div class="hero-inner">
-      <div>
+      <div class="hero-main">
         <div class="hero-eyebrow">Proveedor directo · Precio de fabricante</div>
         <h1>Pisos de <em>Foamy EVA</em><br>al Mayoreo en México</h1>
-        <p class="hero-desc">Piso modular tipo rompecabezas para gimnasios, guarderías, ludotecas, salones de fiestas y academias. Sin pedido mínimo, envíos a toda la República y factura CFDI.</p>
+        <div class="hero-chips">
+          <span>Desde <strong>$299</strong> / paquete + IVA</span>
+          <span>4 formatos</span>
+          <span>8 y 10 mm</span>
+          <span>Mínimo 30 paquetes</span>
+        </div>
+        <p class="hero-desc">Piso modular tipo rompecabezas para gimnasios, guarderías, ludotecas, salones de fiestas y academias. Pedido mínimo de 30 paquetes, envíos a toda la República y factura CFDI.</p>
         <div class="hero-stats">
           <div class="hero-stat-item">
             <div class="hero-stat-n">4<span style="font-size:22px;color:rgba(255,255,255,0.4)"> formatos</span></div>
             <div class="hero-stat-l">medidas y grosores</div>
           </div>
           <div class="hero-stat-item">
-            <div class="hero-stat-n"><em>Sin</em></div>
-            <div class="hero-stat-l">pedido mínimo</div>
+            <div class="hero-stat-n"><em>30</em></div>
+            <div class="hero-stat-l">paquetes mínimo</div>
           </div>
           <div class="hero-stat-item">
             <div class="hero-stat-n">$<em>299</em></div>
@@ -845,12 +854,13 @@ footer {
           </div>
         </div>
         <div class="hero-actions">
-          <a href="https://wa.me/525525897917?text=Hola%2C%20quiero%20cotizar%20pisos%20de%20foamy%20EVA%20al%20mayoreo" class="btn-wa-lg">
+          <a href="https://wa.me/525525897917?text=Hola%2C%20me%20interesa%20comprar%20piso%20foamy" class="btn-wa-lg">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.118 1.531 5.842L.057 24l6.281-1.646C7.94 23.423 9.931 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.89 0-3.653-.49-5.18-1.351l-.371-.22-3.83 1.003 1.024-3.737-.243-.386C2.543 15.806 2 13.974 2 12 2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
             Cotizar por WhatsApp
           </a>
           <a href="#calc" class="btn-ghost">📐 Calcular mi proyecto</a>
         </div>
+        <p class="hero-micro">Lunes a viernes de 9:00 a 18:00 · dinos m², color y código postal</p>
         <div class="trust-bar">
           <div class="trust-item"><span class="trust-icon">✅</span> Entrega en toda la República</div>
           <div class="trust-item"><span class="trust-icon">🧾</span> Factura CFDI incluida</div>
@@ -876,86 +886,100 @@ footer {
 <section class="precios" id="precios">
   <div class="wrap">
     <div class="section-eyebrow">Precios al mayoreo</div>
-    <h2 class="section-h2">4 Formatos · Precio por Paquete</h2>
-    <p class="section-sub">Sin pedido mínimo. Compra desde 1 paquete. Para volúmenes grandes solicita precio especial por WhatsApp.</p>
+    <h2 class="section-h2">Precios de piso foamy por paquete y por m²</h2>
+    <p class="section-sub">Pedido mínimo de 30 paquetes; puedes combinar formatos y colores. Para volúmenes grandes solicita precio especial por WhatsApp.</p>
     <div class="precios-grid">
 
       <div class="precio-card">
         <div class="precio-head">
-          <div class="precio-medida">32 × 32 cm</div>
-          <div class="precio-grosor">8 mm · 16 piezas / paquete</div>
+          <div class="precio-medida">32 × 32 cm<span class="precio-tipo">tipo 30×30</span></div>
+          <div class="precio-grosor">8 mm (0.8 cm) · 16 piezas / paquete</div>
           <div class="precio-uso">Áreas infantiles de uso ligero, salones de fiestas, rinconeras de juego y zonas de lectura.</div>
           <div class="precio-cov">Cobertura: 1.64 m² por paquete</div>
           <div class="precio-num"><sup>$</sup>299</div>
-          <div class="precio-unit">por paquete · precio mayoreo</div>
+          <div class="precio-unit">por paquete + IVA · precio mayoreo</div>
+          <div class="precio-m2">≈ $182 por m² · 30 paquetes ≈ 49 m²</div>
         </div>
         <div class="precio-foot">
           <div class="precio-volumen">
-            <strong>Sin mínimo:</strong> $299/paq<br>
+            <strong>Desde 30 paquetes:</strong> $299/paq<br>
             <strong>Volumen:</strong> Precio especial
           </div>
-          <a href="https://wa.me/525525897917?text=Hola%2C%20quiero%20cotizar%20piso%20foamy%2032x32%208mm%20al%20mayoreo" class="precio-cta">Cotizar este formato</a>
+          <a href="https://wa.me/525525897917?text=Hola%2C%20me%20interesa%20comprar%20piso%20foamy%2032x32%20de%208%20mm" class="precio-cta">Cotizar este formato</a>
         </div>
       </div>
 
       <div class="precio-card popular">
         <div class="precio-popular-badge">⭐ Más popular en guarderías</div>
         <div class="precio-head">
-          <div class="precio-medida">32 × 32 cm</div>
-          <div class="precio-grosor">10 mm · 16 piezas / paquete</div>
+          <div class="precio-medida">32 × 32 cm<span class="precio-tipo">tipo 30×30</span></div>
+          <div class="precio-grosor">10 mm (1 cm) · 16 piezas / paquete</div>
           <div class="precio-uso">Guarderías, estimulación temprana, zonas de gateo y áreas donde los niños pasan tiempo en el suelo.</div>
           <div class="precio-cov">Cobertura: 1.64 m² por paquete</div>
           <div class="precio-num"><sup>$</sup>399</div>
-          <div class="precio-unit">por paquete · precio mayoreo</div>
+          <div class="precio-unit">por paquete + IVA · precio mayoreo</div>
+          <div class="precio-m2">≈ $244 por m² · 30 paquetes ≈ 49 m²</div>
         </div>
         <div class="precio-foot">
           <div class="precio-volumen">
-            <strong>Sin mínimo:</strong> $399/paq<br>
+            <strong>Desde 30 paquetes:</strong> $399/paq<br>
             <strong>Volumen:</strong> Precio especial
           </div>
-          <a href="https://wa.me/525525897917?text=Hola%2C%20quiero%20cotizar%20piso%20foamy%2032x32%2010mm%20al%20mayoreo" class="precio-cta">Cotizar este formato</a>
+          <a href="https://wa.me/525525897917?text=Hola%2C%20me%20interesa%20comprar%20piso%20foamy%2032x32%20de%2010%20mm" class="precio-cta">Cotizar este formato</a>
         </div>
       </div>
 
       <div class="precio-card popular">
         <div class="precio-popular-badge">⭐ Más popular en gimnasios</div>
         <div class="precio-head">
-          <div class="precio-medida">62 × 62 cm</div>
-          <div class="precio-grosor">10 mm · 4 piezas / paquete</div>
-          <div class="precio-uso">Gimnasios, ludotecas y áreas de juego amplias. Menos juntas visibles, instalación más rápida en superficies grandes.</div>
+          <div class="precio-medida">62 × 62 cm<span class="precio-tipo">tipo 60×60</span></div>
+          <div class="precio-grosor">10 mm (1 cm) · 4 piezas / paquete</div>
+          <div class="precio-uso">Gimnasios, ludotecas, áreas de juego amplias y tatami para artes marciales de contacto. Menos juntas visibles, instalación más rápida en superficies grandes.</div>
           <div class="precio-cov">Cobertura: 1.54 m² por paquete</div>
           <div class="precio-num"><sup>$</sup>399</div>
-          <div class="precio-unit">por paquete · precio mayoreo</div>
+          <div class="precio-unit">por paquete + IVA · precio mayoreo</div>
+          <div class="precio-m2">≈ $259 por m² · 30 paquetes ≈ 46 m²</div>
         </div>
         <div class="precio-foot">
           <div class="precio-volumen">
-            <strong>Sin mínimo:</strong> $399/paq<br>
+            <strong>Desde 30 paquetes:</strong> $399/paq<br>
             <strong>Volumen:</strong> Precio especial
           </div>
-          <a href="https://wa.me/525525897917?text=Hola%2C%20quiero%20cotizar%20piso%20foamy%2062x62%2010mm%20al%20mayoreo" class="precio-cta">Cotizar este formato</a>
+          <a href="https://wa.me/525525897917?text=Hola%2C%20me%20interesa%20comprar%20piso%20foamy%2062x62%20de%2010%20mm" class="precio-cta">Cotizar este formato</a>
         </div>
       </div>
 
       <div class="precio-card">
         <div class="precio-head">
-          <div class="precio-medida">62 × 62 cm</div>
-          <div class="precio-grosor">8 mm · 4 piezas / paquete</div>
-          <div class="precio-uso">Academias de karate y taekwondo, zonas de artes marciales y entrenamiento de combate. Disponible en bicolor.</div>
+          <div class="precio-medida">62 × 62 cm<span class="precio-tipo">tipo 60×60</span></div>
+          <div class="precio-grosor">8 mm (0.8 cm) · 4 piezas / paquete</div>
+          <div class="precio-uso">Cobertura amplia y económica. En academias de karate y taekwondo, para calentamiento, stretching y zonas de bajo impacto. Disponible en bicolor.</div>
           <div class="precio-cov">Cobertura: 1.54 m² por paquete</div>
           <div class="precio-num"><sup>$</sup>299</div>
-          <div class="precio-unit">por paquete · precio mayoreo</div>
+          <div class="precio-unit">por paquete + IVA · precio mayoreo</div>
+          <div class="precio-m2">≈ $194 por m² · 30 paquetes ≈ 46 m²</div>
         </div>
         <div class="precio-foot">
           <div class="precio-volumen">
-            <strong>Sin mínimo:</strong> $299/paq<br>
+            <strong>Desde 30 paquetes:</strong> $299/paq<br>
             <strong>Volumen:</strong> Precio especial
           </div>
-          <a href="https://wa.me/525525897917?text=Hola%2C%20quiero%20cotizar%20piso%20foamy%2062x62%208mm%20al%20mayoreo" class="precio-cta">Cotizar este formato</a>
+          <a href="https://wa.me/525525897917?text=Hola%2C%20me%20interesa%20comprar%20piso%20foamy%2062x62%20de%208%20mm" class="precio-cta">Cotizar este formato</a>
         </div>
       </div>
 
     </div>
-    <p class="precios-nota">Precios en MXN + IVA · Flete cotizado según volumen y destino · Sin pedido mínimo</p>
+    <p class="precios-nota">Precios en MXN + IVA · Flete cotizado según volumen y destino · Pedido mínimo 30 paquetes</p>
+
+    <div class="antes" id="antes-de-cotizar">
+      <h3>Antes de cotizar</h3>
+      <ul>
+        <li><span aria-hidden="true">🚚</span><div><strong>Entrega:</strong> colores en existencia, de 3 a 7 días hábiles a destinos principales. Si no hay existencia del color, se fabrica sobre pedido en 7 a 12 días hábiles. Pregúntanos qué hay en existencia.</div></li>
+        <li><span aria-hidden="true">🎨</span><div><strong>Colores:</strong> 21 colores, incluidos tonos pastel. Pide la carta de colores por WhatsApp.</div></li>
+        <li><span aria-hidden="true">🏬</span><div><strong>Bodega y muestras:</strong> bodega en Cuajimalpa, CDMX · lunes a viernes de 9:00 a 18:00 · ahí puedes ver y pedir muestras.</div></li>
+        <li><span aria-hidden="true">💳</span><div><strong>Pago:</strong> transferencia o tarjeta · anticipo del 50 % para fabricar · factura CFDI.</div></li>
+      </ul>
+    </div>
   </div>
 </section>
 
@@ -1082,7 +1106,7 @@ footer {
           <div class="nicho-desc">Tatami modular para karate, taekwondo y artes marciales mixtas. Bicolor rojo/azul disponible. Superficie con textura antideslizante para caídas seguras.</div>
         </div>
         <div class="nicho-footer">
-          <span class="nicho-formato">62×62 cm · 8 mm · desde $299/pkg</span>
+          <span class="nicho-formato">62×62 cm · 10 mm · desde $399/pkg</span>
           <span class="nicho-link">Ver más →</span>
         </div>
       </a>
@@ -1106,11 +1130,12 @@ footer {
     <h3>Formatos disponibles: medidas, grosores y cobertura por paquete</h3>
     <p><strong>32×32 cm a 8 mm</strong> — El formato más compacto, ideal para áreas infantiles de uso ligero. Cada paquete incluye 16 piezas y cubre 1.64 m². Precio al mayoreo: $299/paquete.</p>
     <p><strong>32×32 cm a 10 mm</strong> — Mayor amortiguación, recomendado para guarderías y zonas de gateo donde los niños pasan tiempo prolongado en el suelo. Mismo número de piezas y cobertura. Precio: $399/paquete.</p>
-    <p><strong>62×62 cm a 10 mm</strong> — El formato más popular para gimnasios y ludotecas. La pieza grande permite cubrir más superficie con menos piezas y lograr un acabado más limpio con menos juntas visibles. Precio: $399/paquete.</p>
-    <p><strong>62×62 cm a 8 mm</strong> — Recomendado para academias de karate, taekwondo y artes marciales mixtas. Disponible en bicolor para marcar zonas de combate. Precio: $299/paquete.</p>
+    <p><strong>62×62 cm (tipo 60×60) a 10 mm</strong> — El formato más popular para gimnasios y ludotecas, y el recomendado como tatami para artes marciales de contacto. La pieza grande permite cubrir más superficie con menos piezas y lograr un acabado más limpio con menos juntas visibles. Precio: $399/paquete.</p>
+    <p><strong>62×62 cm (tipo 60×60) a 8 mm</strong> — Cobertura amplia a menor precio. En academias de karate y taekwondo funciona para calentamiento, stretching y zonas de bajo impacto. Disponible en bicolor para marcar zonas de combate. Precio: $299/paquete.</p>
+    <p>Todos los precios son por paquete, en MXN + IVA. El formato de 62 × 62 cm es el que en el mercado se conoce como "60×60".</p>
 
-    <h3>Ventajas de comprar piso de foamy EVA al mayoreo sin pedido mínimo</h3>
-    <p>Compramos directo de fabricante y te trasladamos ese precio sin intermediarios. Sin pedido mínimo: compras desde 1 paquete para probar el material, o los que necesites para tu proyecto exacto. Recibes lote uniforme (mismo tono de fabricación sin variaciones) y envío coordinado en una sola remesa que reduce los costos logísticos.</p>
+    <h3>Ventajas de comprar piso de foamy EVA al mayoreo</h3>
+    <p>Compramos directo de fabricante y te trasladamos ese precio sin intermediarios. El pedido mínimo es de 30 paquetes, que puedes combinar entre formatos y colores para ajustarlo a tu proyecto. Recibes lote uniforme (mismo tono de fabricación sin variaciones) y envío coordinado en una sola remesa que reduce los costos logísticos.</p>
     <p>Para proyectos de gran volumen —una ludoteca de 150 m², un gimnasio de 300 m² o varias sucursales— ofrecemos precio especial. Escríbenos por WhatsApp con las medidas de tu espacio y te cotizamos precio, colores y tiempo de entrega el mismo día.</p>
 
     <div class="seo-chips">
@@ -1141,7 +1166,7 @@ footer {
       <div class="step-item">
         <div class="step-n">2</div>
         <div class="step-title">Confirma el pedido</div>
-        <div class="step-desc">Eliges formato, color y cantidad. Sin pedido mínimo — compras lo que necesitas. Puedes mezclar formatos en un mismo pedido. Te enviamos la cotización formal con datos de pago.</div>
+        <div class="step-desc">Eliges formato, color y cantidad (mínimo 30 paquetes). Puedes mezclar formatos y colores en un mismo pedido. Te enviamos la cotización formal con datos de pago.</div>
       </div>
       <div class="step-item">
         <div class="step-n">3</div>
@@ -1169,25 +1194,25 @@ footer {
         <div class="calc-box-body">
           <div class="fg-row">
             <div class="fg">
-              <label>Largo del espacio (m)</label>
+              <label for="cLargo">Largo del espacio (m)</label>
               <input type="number" id="cLargo" placeholder="10" min="1" step="0.1">
             </div>
             <div class="fg">
-              <label>Ancho del espacio (m)</label>
+              <label for="cAncho">Ancho del espacio (m)</label>
               <input type="number" id="cAncho" placeholder="8" min="1" step="0.1">
             </div>
           </div>
           <div class="fg">
-            <label>Formato de piso</label>
+            <label for="cFormato">Formato de piso</label>
             <select id="cFormato">
-              <option value="1.6384|32×32 cm · 8 mm|299">32×32 cm · 8 mm · $299/paquete</option>
-              <option value="1.6384|32×32 cm · 10 mm|399">32×32 cm · 10 mm · $399/paquete</option>
-              <option value="1.5376|62×62 cm · 10 mm|399" selected>62×62 cm · 10 mm · $399/paquete (más popular)</option>
-              <option value="1.5376|62×62 cm · 8 mm|299">62×62 cm · 8 mm · $299/paquete</option>
+              <option value="1.6384|32×32 cm · 8 mm|299">32×32 cm · 8 mm · 16 pzas · $299/paquete + IVA</option>
+              <option value="1.6384|32×32 cm · 10 mm|399">32×32 cm · 10 mm · 16 pzas · $399/paquete + IVA</option>
+              <option value="1.5376|62×62 cm (tipo 60×60) · 10 mm|399" selected>62×62 cm (tipo 60×60) · 10 mm · 4 pzas · $399/paquete + IVA</option>
+              <option value="1.5376|62×62 cm (tipo 60×60) · 8 mm|299">62×62 cm (tipo 60×60) · 8 mm · 4 pzas · $299/paquete + IVA</option>
             </select>
           </div>
           <div class="fg">
-            <label>Desperdicio estimado (%)</label>
+            <label for="cDesp">Desperdicio estimado (%)</label>
             <select id="cDesp">
               <option value="0.05">5% — Cuarto rectangular simple</option>
               <option value="0.10" selected>10% — Forma irregular o columnas</option>
@@ -1211,7 +1236,7 @@ footer {
           <div class="rr"><span class="rl">Costo estimado</span><span class="rv" id="rCosto">—</span></div>
         </div>
         <div class="moq-warn" id="moqWarn" style="display:none;"></div>
-        <a href="#" class="result-wa" id="rWA">
+        <a href="https://wa.me/525525897917?text=Hola%2C%20me%20interesa%20comprar%20piso%20foamy" class="result-wa" id="rWA">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.118 1.531 5.842L.057 24l6.281-1.646C7.94 23.423 9.931 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.89 0-3.653-.49-5.18-1.351l-.371-.22-3.83 1.003 1.024-3.737-.243-.386C2.543 15.806 2 13.974 2 12 2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
           Cotizar por WhatsApp
         </a>
@@ -1272,12 +1297,17 @@ footer {
 
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">¿Cuál es el pedido mínimo?<span class="faq-toggle">+</span></div>
-        <div class="faq-a">No tenemos pedido mínimo. Puedes comprar desde un paquete para probar el material hasta los que necesites para equipar toda tu instalación. Puedes mezclar formatos —por ejemplo, algunos paquetes de 32×32 y otros de 62×62— en un mismo pedido.</div>
+        <div class="faq-a">El pedido mínimo es de 30 paquetes (≈ 49 m² en 32×32 cm o ≈ 46 m² en 62×62 cm). Puedes mezclar formatos y colores dentro de esos 30 paquetes —por ejemplo, algunos paquetes de 32×32 y otros de 62×62— en un mismo pedido.</div>
       </div>
 
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">¿Cuánto cuesta el piso de foamy al mayoreo?<span class="faq-toggle">+</span></div>
-        <div class="faq-a">Los precios van de $299 a $399 MXN por paquete según el formato. Para proyectos de más de 100 paquetes ofrecemos precio especial por volumen. Usa la calculadora o escríbenos para una cotización exacta.</div>
+        <div class="faq-a">Los precios van de $299 a $399 MXN + IVA por paquete según el formato, es decir, entre $182 y $259 por m². Para proyectos de más de 100 paquetes ofrecemos precio especial por volumen. Usa la calculadora o escríbenos para una cotización exacta.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">¿Foamy, foami, fomi y goma EVA son lo mismo?<span class="faq-toggle">+</span></div>
+        <div class="faq-a">Sí. Foamy, foami, fomi y fomy son formas de escribir el mismo material en México; en Sudamérica le dicen goma EVA. También se les conoce como losetas o cuadros de foamy. Es espuma EVA de celda cerrada, flexible y antiderrapante.</div>
       </div>
 
       <div class="faq-item">
@@ -1297,7 +1327,7 @@ footer {
 
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">¿Qué grosor recomiendan para gimnasio?<span class="faq-toggle">+</span></div>
-        <div class="faq-a">Para zonas de cardio, funcional y yoga recomendamos el 62×62 cm a 10 mm. Para zonas de pesas libres donde cae el peso al suelo, el mismo formato funciona bien. Para academias de karate y taekwondo, el 62×62 cm a 8 mm en bicolor es el estándar.</div>
+        <div class="faq-a">Para zonas de cardio, funcional y yoga recomendamos el 62×62 cm a 10 mm. Para zonas de pesas libres donde cae el peso al suelo, el mismo formato funciona bien. Para academias de karate y taekwondo recomendamos el 62×62 cm a 10 mm; el de 8 mm basta para calentamiento y stretching.</div>
       </div>
 
       <div class="faq-item">
@@ -1307,17 +1337,17 @@ footer {
 
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">¿Qué colores manejan?<span class="faq-toggle">+</span></div>
-        <div class="faq-a">Manejamos colores sólidos: azul, rojo, verde, amarillo, gris y negro. También disponible en bicolor para academias de artes marciales. La disponibilidad puede variar por formato y temporada. Consulta los colores actuales disponibles por WhatsApp al momento de cotizar.</div>
+        <div class="faq-a">Manejamos 21 colores, incluidos tonos pastel, además de los sólidos clásicos como azul, rojo, verde, amarillo, gris y negro. También hay bicolor para academias de artes marciales. La existencia varía por formato y temporada: pide la carta de colores por WhatsApp y te decimos qué hay en existencia.</div>
       </div>
 
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">¿Puedo mezclar colores en un mismo pedido?<span class="faq-toggle">+</span></div>
-        <div class="faq-a">Sí, siempre que el total de paquetes sea de 30 o más. Para garantizar uniformidad de tono en cada color, recomendamos pedir el mismo lote de fabricación. Consulta disponibilidad por WhatsApp antes de confirmar.</div>
+        <div class="faq-a">Sí. El pedido mínimo es de 30 paquetes en total y puedes repartirlos entre varios colores. Para garantizar uniformidad de tono en cada color, recomendamos pedir el mismo lote de fabricación. Consulta existencia por WhatsApp antes de confirmar.</div>
       </div>
 
       <div class="faq-item">
         <div class="faq-q" onclick="toggleFaq(this)">¿Cuánto tiempo tarda la entrega?<span class="faq-toggle">+</span></div>
-        <div class="faq-a">El tiempo de entrega depende del volumen y el destino. En general, pedidos menores a 100 paquetes a destinos principales (CDMX, Guadalajara, Monterrey) se entregan en 3 a 7 días hábiles una vez confirmado el pedido. Te notificamos la fecha estimada al confirmar.</div>
+        <div class="faq-a">El tiempo de entrega depende del volumen y el destino. En general, pedidos menores a 100 paquetes a destinos principales (CDMX, Guadalajara, Monterrey) se entregan en 3 a 7 días hábiles una vez confirmado el pedido. Si el color que eliges no está en existencia, se fabrica sobre pedido en 7 a 12 días hábiles. Te notificamos la fecha estimada al confirmar.</div>
       </div>
 
     </div>
@@ -1330,7 +1360,7 @@ footer {
     <h2>¿Listo para Equipar<br>tu <em>Espacio</em>?</h2>
     <p>Dinos el área, el tipo de espacio y tu código postal. Te cotizamos precio, colores y flete en minutos.</p>
     <div class="cta-btns">
-      <a href="https://wa.me/525525897917?text=Hola%2C%20quiero%20cotizar%20pisos%20de%20foamy%20EVA%20al%20mayoreo" class="btn-wa-lg">
+      <a href="https://wa.me/525525897917?text=Hola%2C%20me%20interesa%20comprar%20piso%20foamy" class="btn-wa-lg">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.118 1.531 5.842L.057 24l6.281-1.646C7.94 23.423 9.931 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.89 0-3.653-.49-5.18-1.351l-.371-.22-3.83 1.003 1.024-3.737-.243-.386C2.543 15.806 2 13.974 2 12 2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
         Cotizar por WhatsApp
       </a>
@@ -1385,8 +1415,9 @@ function calcular() {
   const precioPkg = parseInt(fmt[2]);
   const area     = largo * ancho;
   const areaD    = area * (1 + desp);
+  const MINIMO   = 30; // pedido mínimo: 30 paquetes
   const pkgsReal = Math.ceil(areaD / cobPkg);
-  const pkgsCot  = pkgsReal;
+  const pkgsCot  = Math.max(pkgsReal, MINIMO);
   const cobTotal = (pkgsCot * cobPkg).toFixed(2);
   const costo    = (pkgsCot * precioPkg).toLocaleString('es-MX');
   const warn     = document.getElementById('moqWarn');
@@ -1397,10 +1428,15 @@ function calcular() {
   document.getElementById('rAreaD').textContent = areaD.toFixed(2) + ' m² (con desperdicio)';
   document.getElementById('rFmt').textContent   = medida;
   document.getElementById('rCob').textContent   = cobTotal + ' m² cubiertos';
-  document.getElementById('rCosto').textContent = '$' + costo + ' MXN aprox.';
-  warn.style.display = 'none';
+  document.getElementById('rCosto').textContent = '$' + costo + ' MXN + IVA aprox.';
+  if (pkgsReal < MINIMO) {
+    warn.textContent = 'Tu espacio necesita ' + pkgsReal + ' paquetes, pero el pedido mínimo es de ' + MINIMO + ' paquetes (puedes combinar formatos y colores). Calculamos el costo con ' + MINIMO + ' paquetes.';
+    warn.style.display = 'block';
+  } else {
+    warn.style.display = 'none';
+  }
 
-  const msg = `Hola, quiero cotizar piso de foamy EVA al mayoreo.\n\nÁrea: ${area.toFixed(2)} m²\nFormato: ${medida}\nCantidad: ${pkgsCot} paquetes\n\n¿Me confirman precio, colores disponibles y flete?`;
+  const msg = `Hola, me interesa comprar piso foamy.\n\nÁrea: ${area.toFixed(2)} m²\nFormato: ${medida}\nCantidad: ${pkgsCot} paquetes\n\n¿Me confirman precio, colores disponibles y flete?`;
   document.getElementById('rWA').href = 'https://wa.me/525525897917?text=' + encodeURIComponent(msg);
 }
 </script>
